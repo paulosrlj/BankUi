@@ -19,16 +19,16 @@ function Hero() {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            O sistema de pagamento de<br className="sm:block hidden" />{" "}
+            O sistema de pagamento de próxima<br className="sm:block hidden" />{" "}
             
           </h1>
-          <div className="ss:flex hidden md:mr-4 mr-0">
+          <div className="ss:flex hidden md:mr-2 mr-0">
             <GetStarted />
           </div>
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-           próxima <span className="text-gradient">Geração</span>{" "}
+          <span className="text-gradient">Geração</span>{" "}
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Nossa equipe de especialistas utiliza uma metodologia para identificar os cartões de crédito com maior probabilidade de atender às suas necessidades. Nós examinamos taxas de porcentagem anuais e taxas anuais.
